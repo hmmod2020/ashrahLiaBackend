@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hmmod</title>
+</head>
+<body>
+<form method="post" action="{% url 'regester'%}">
+   {% csrf_token %}
+    <label>userName:</label><br>
+  <input type="text" name="username"><br>
+  <label>password:</label><br>
+  <input type="password" name="password"><br>
+  <label>email:</label><br>
+    <input type="email" name="email">
+    <br>
+  <label>fristName:</label><br>
+    <input type="text" name="fristName">
+    <br>
+  <label>lastName:</label><br>
+    <input type="text" name="lastName">
+  <br>
+     <label>numpper phone:</label><br>
+    <input type="text" name="numpperPhone">
+  <br>
+     <label>place:</label><br>
+    <input type="text" name="place">
+  <br>
+     <label>book1:</label><br>
+    <input type="text" name="book1">
+  <br>
+     <label>book2:</label><br>
+    <input type="text" name="book2">
+  <br>
+     <label>book3:</label><br>
+    <input type="text" name="book3">
+  <br>
+      <label>book4:</label><br>
+    <input type="text" name="book4">
+  <br>
+     <label>gender:</label><br>
+    <input type="text" name="gender">
+  <br>
+  <br>
+   <br>
+   <input type="submit" name="login">
+
+
+</form>
+</body>
+</html>
